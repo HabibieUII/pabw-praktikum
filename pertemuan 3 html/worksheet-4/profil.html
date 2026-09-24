@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <input type="checkbox" id="tema">
+        <input type="checkbox" id="tema" class="pengalih-tema">
         <label for="tema" class="tombol-tema">Tema gelap</label>
 
         <div class="header-baris">
@@ -39,52 +39,40 @@
                 tahun rilis, dan ratingnya.
             </p>
 
-            <table>
-                <caption>Daftar Film Favorit Saya</caption>
+            <div class="katalog">
 
-                <thead>
-                    <tr>
-                        <th scope="col">Judul Film</th>
-                        <th scope="col">Genre</th>
-                        <th scope="col">Tahun Rilis</th>
-                        <th scope="col">Rating</th>
-                    </tr>
-                </thead>
+                <article class="kartu">
+                    <img src="scream.jpg" alt="Poster film Scream 1">
+                    <div class="info-film">
+                        <h3>Scream 1</h3>
+                        <p>Genre: Slasher</p>
+                        <p>Tahun Rilis: 1996</p>
+                        <p>Rating: 9/10</p>
+                    </div>
+                </article>
 
-                <tbody>
-                    <tr>
-                        <th scope="row">Scream 1</th>
-                        <td>Slasher</td>
-                        <td>1996</td>
-                        <td>9/10</td>
-                    </tr>
+                <article class="kartu">
+                    <img src="scary-movie.jpg" alt="Poster film Scary Movie 1">
+                    <div class="info-film">
+                        <h3>Scary Movie 1</h3>
+                        <p>Genre: Horror-Comedy</p>
+                        <p>Tahun Rilis: 2000</p>
+                        <p>Rating: 9/10</p>
+                    </div>
+                </article>
 
-                    <tr>
-                        <th scope="row">Scary Movie 1</th>
-                        <td>Horror-Comedy</td>
-                        <td>2000</td>
-                        <td>9/10</td>
-                    </tr>
+                <article class="kartu">
+                    <img src="fast-furious.jpg" alt="Poster film The Fast and the Furious">
+                    <div class="info-film">
+                        <h3>The Fast and the Furious</h3>
+                        <p>Genre: Action</p>
+                        <p>Tahun Rilis: 2001</p>
+                        <p>Rating: 8.5/10</p>
+                    </div>
+                </article>
 
-                    <tr>
-                        <th scope="row">The Fast and the Furious</th>
-                        <td>Action</td>
-                        <td>2001</td>
-                        <td>8.5/10</td>
-                    </tr>
-                </tbody>
-            </table>
+            </div>
 
-            <figure>
-                <img
-                    src="film.jpg"
-                    alt="Poster film favorit"
-                    width="300"
-                    height="450"
-                    loading="lazy"
-                >
-                <figcaption>Beberapa film favorit saya.</figcaption>
-            </figure>
         </section>
 
         <section id="tambah-film">
@@ -133,7 +121,7 @@
             <h2>Tentang Saya</h2>
 
             <p>
-                Saya menyukai berbagai jenis film, terutama film action
+                Saya menyukai berbagai jenis film, terutama film dengan genre action
                 dan horror slasher. Halaman ini berisi beberapa film
                 yang menjadi favorit saya.
             </p>

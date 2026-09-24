@@ -46,11 +46,13 @@ main {
 
 .kartu {
     flex: 1 1 16rem;
+    max-width: 20rem;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-1);
-    padding: var(--card-pad);
+    overflow: hidden;
+    padding: 0;
 }
 
 /* Footer */

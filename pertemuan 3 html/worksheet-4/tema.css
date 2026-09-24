@@ -1,11 +1,11 @@
-/* Mode gelap mengikuti pengaturan sistem */
+/* Tema otomatis mengikuti pengaturan sistem */
 @media (prefers-color-scheme: dark) {
     :root {
         --color-bg: #0F172A;
         --color-fg: #E2E8F0;
         --color-surface: #1E293B;
         --color-border: #334155;
-        --color-primary: #7DA9F7;
+        --color-primary: var(--purple-700);
         --color-danger: #FF8A8A;
         --color-focus: #FFC000;
         --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.45);
@@ -14,14 +14,14 @@
 
 /* Tema terang ketika checkbox tidak dicentang */
 :root:has(#tema:not(:checked)) {
-    --color-bg: #F8FAFC;
-    --color-fg: #0F172A;
+    --color-bg: #F5F3FF;
+    --color-fg: #111827;
     --color-surface: #FFFFFF;
-    --color-border: #D1D5DB;
-    --color-primary: #1D4ED8;
-    --color-danger: #B00020;
-    --color-focus: #3B82F6;
-    --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.10);
+    --color-border: #CBD5E1;
+    --color-primary: var(--purple-700);
+    --color-danger: #DC2626;
+    --color-focus: #F59E0B;
+    --shadow-1: 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
 /* Tema gelap ketika checkbox dicentang */
@@ -30,10 +30,17 @@
     --color-fg: #E2E8F0;
     --color-surface: #1E293B;
     --color-border: #334155;
-    --color-primary: #7DA9F7;
+    --color-primary: var(--purple-700);
     --color-danger: #FF8A8A;
     --color-focus: #FFC000;
     --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.45);
+}
+
+/* Checkbox asli disembunyikan */
+.pengalih-tema {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
 }
 
 /* Tombol tema */
