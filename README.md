@@ -1,2 +1,2 @@
-# pabw-pratikum
+# pabw-praktikum
 Latihan PABW
