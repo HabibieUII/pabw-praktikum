@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Koleksi Film Favorit Saya</title>
+</head>
+
+<body>
+    <header>
+        <h1>Koleksi Film Favorit Saya</h1>
+
+        <nav aria-label="Navigasi utama">
+            <ul>
+                <li><a href="#daftar-film">Daftar Film</a></li>
+                <li><a href="#tambah-film">Tambah Film</a></li>
+                <li><a href="#tentang-saya">Tentang Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="daftar-film">
+            <h2>Daftar Film Favorit</h2>
+
+            <p>
+                Berikut adalah beberapa film favorit saya beserta genre,
+                tahun rilis, dan ratingnya.
+            </p>
+
+            <table>
+                <caption>Daftar Film Favorit Saya</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Judul Film</th>
+                        <th scope="col">Genre</th>
+                        <th scope="col">Tahun Rilis</th>
+                        <th scope="col">Rating</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Scream 1</th>
+                        <td>Slasher</td>
+                        <td>1996</td>
+                        <td>9/10</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Scary Movie 1</th>
+                        <td>Horror-Comedy</td>
+                        <td>2000</td>
+                        <td>9/10</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">The Fast and the Furious</th>
+                        <td>Action</td>
+                        <td>2001</td>
+                        <td>8.5/10</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <figure>
+                <img
+                    src="film.jpg"
+                    alt="Poster film favorit"
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                >
+                <figcaption>Beberapa film favorit saya.</figcaption>
+            </figure>
+        </section>
+
+        <section id="tambah-film">
+            <h2>Tambah Film</h2>
+
+            <p>
+                Masukkan informasi film yang ingin ditambahkan.
+            </p>
+
+            <form action="/simpan" method="post">
+                <div>
+                    <label for="judul-film">Judul Film</label>
+                    <input
+                        type="text"
+                        id="judul-film"
+                        name="judul-film"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="genre">Genre</label>
+                    <input
+                        type="text"
+                        id="genre"
+                        name="genre"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="tahun-rilis">Tahun Rilis</label>
+                    <input
+                        type="number"
+                        id="tahun-rilis"
+                        name="tahun-rilis"
+                        min="1900"
+                        max="2026"
+                        required
+                    >
+                </div>
+
+                <button type="submit">Simpan Film</button>
+            </form>
+        </section>
+
+        <section id="tentang-saya">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Saya menyukai berbagai jenis film, terutama film action
+                dan science fiction. Halaman ini berisi beberapa film
+                yang menjadi favorit saya.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Duta Rayyan Habibie · 25523273 · 2026</p>
+    </footer>
+</body>
+</html>
