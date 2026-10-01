@@ -74,6 +74,21 @@ Beberapa hal yang dikerjakan:
 * Menguji tampilan pada ukuran layar 360px dan 1280px
 * Tetap mempertahankan fitur tema terang dan gelap dari praktikum sebelumnya
 
+## Praktikum 6
+
+Praktikum 6 merupakan lanjutan dari praktikum sebelumnya yang berfokus pada **Responsive Web Design dan Media Query**.
+
+Beberapa hal yang dikerjakan:
+
+* Membuat layout yang responsive
+* Menggunakan CSS Media Query
+* Menentukan breakpoint pada `48rem` dan `60rem`
+* Mengubah galeri dari satu kolom menjadi dua kolom pada `48rem`
+* Menampilkan sidebar bersanding dengan konten pada `60rem`
+* Menyesuaikan layout berdasarkan lebar layar
+* Menguji tampilan pada ukuran layar yang berbeda
+* Menentukan titik henti berdasarkan kebutuhan layout, bukan berdasarkan perangkat tertentu
+
 ## Bantuan AI
 
 Dalam pengerjaan tugas ini saya menggunakan AI sebagai bantuan untuk memahami materi, mencari kesalahan pada kode, dan membantu proses perbaikan CSS.
