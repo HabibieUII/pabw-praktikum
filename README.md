@@ -1,8 +1,8 @@
-PABW Pertemuan 4
+# PABW Pertemuan 4
 
 Ini adalah hasil pengerjaan tugas PABW Pertemuan 4 tentang **CSS Fundamental dan Design Token**.
 
-Isi folder
+## Isi folder
 
 Di dalam folder `worksheet-p4/` ada beberapa file:
 
@@ -14,7 +14,7 @@ Di dalam folder `worksheet-p4/` ada beberapa file:
 * `tema.css` → mengatur tema terang dan gelap
 * `gambar/` → berisi gambar yang digunakan di halaman
 
-Yang dikerjakan
+## Yang dikerjakan
 
 Beberapa hal yang diterapkan di tugas ini:
 
@@ -34,13 +34,13 @@ Beberapa hal yang diterapkan di tugas ini:
 * Menghilangkan `!important`
 * Menggunakan `font: inherit` pada input
 
-Tema
+## Tema
 
 Halaman ini punya tema terang dan gelap.
 
 Tema bisa mengikuti pengaturan sistem menggunakan `prefers-color-scheme`, dan juga bisa diganti menggunakan tombol tema yang ada di halaman.
 
-Pengujian
+## Pengujian
 
 Halaman sudah dicek menggunakan DevTools dan Lighthouse untuk melihat:
 
@@ -51,12 +51,35 @@ Halaman sudah dicek menggunakan DevTools dan Lighthouse untuk melihat:
 * Error 404 di Network
 * Tampilan saat ukuran layar diperkecil
 
-Bantuan AI
+## Praktikum 5
+
+Praktikum 5 merupakan tambahan atau lanjutan dari Praktikum 4.
+
+Pada praktikum ini halaman dari praktikum sebelumnya dikembangkan lagi dengan menggunakan **Flexbox dan CSS Grid** untuk mengatur layout.
+
+Beberapa hal yang dikerjakan:
+
+* Menggunakan CSS Grid untuk kerangka halaman
+* Menggunakan Flexbox untuk bagian yang membutuhkan susunan satu arah
+* Mengatur layout menjadi 3 baris menggunakan Grid
+* Membuat layout utama menjadi 2 kolom
+* Menggunakan `grid-template-areas`
+* Menggunakan `repeat()` dan `minmax()`
+* Menggunakan `auto-fit` agar jumlah kolom menyesuaikan ukuran layar
+* Mengatur jarak antar elemen menggunakan `gap`
+* Mengatur isi kartu menggunakan Flexbox dan Grid
+* Mengatasi masalah teks yang terlalu panjang
+* Menggunakan `min-width: 0`
+* Menggunakan `overflow-wrap: anywhere`
+* Menguji tampilan pada ukuran layar 360px dan 1280px
+* Tetap mempertahankan fitur tema terang dan gelap dari praktikum sebelumnya
+
+## Bantuan AI
 
 Dalam pengerjaan tugas ini saya menggunakan AI sebagai bantuan untuk memahami materi, mencari kesalahan pada kode, dan membantu proses perbaikan CSS.
 
 Kode dan tampilan akhir tetap saya sesuaikan sendiri dengan kebutuhan tugas.
 
-Keaslian
+## Keaslian
 
 Tampilan halaman ini saya buat dan sesuaikan sendiri, bukan menyalin hasil pekerjaan teman.
