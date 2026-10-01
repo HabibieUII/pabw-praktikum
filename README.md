@@ -1,6 +1,36 @@
-# PABW Pertemuan 4
+# PABW Praktikum
 
-Ini adalah hasil pengerjaan tugas PABW Pertemuan 4 tentang **CSS Fundamental dan Design Token**.
+## PABW Pertemuan 3
+
+Ini adalah hasil pengerjaan tugas PABW Pertemuan 3 tentang **HTML5 Semantik, Form, Media, dan Aksesibilitas**.
+
+Pada praktikum ini saya membuat halaman **Koleksi Film Favorit Saya** yang berisi daftar film yang pernah saya tonton.
+
+### Isi yang dikerjakan
+
+* Menggunakan struktur HTML5 semantik
+* Menggunakan `header`, `nav`, `main`, `section`, dan `footer`
+* Membuat tabel daftar film
+* Menambahkan genre, tahun rilis, dan rating film
+* Membuat form untuk menambahkan film
+* Menggunakan `label` dan `input` dengan benar
+* Menggunakan validasi seperti `required`, `min`, dan `max`
+* Menambahkan gambar dengan `alt`
+* Menggunakan heading secara berurutan
+* Membuat navigasi dengan anchor
+* Menguji aksesibilitas dan fungsi form
+
+### Data film
+
+* **Scream 1** — Slasher — 1996 — 9/10
+* **Scary Movie 1** — Horror-Comedy — 2000 — 9/10
+* **The Fast and the Furious** — Action — 2001 — 8.5/10
+
+---
+
+# Praktikum 4
+
+Ini adalah hasil pengerjaan tugas Pertemuan 4 tentang **CSS Fundamental dan Design Token**.
 
 ## Isi folder
 
@@ -51,6 +81,8 @@ Halaman sudah dicek menggunakan DevTools dan Lighthouse untuk melihat:
 * Error 404 di Network
 * Tampilan saat ukuran layar diperkecil
 
+---
+
 ## Praktikum 5
 
 Praktikum 5 merupakan tambahan atau lanjutan dari Praktikum 4.
@@ -73,6 +105,8 @@ Beberapa hal yang dikerjakan:
 * Menggunakan `overflow-wrap: anywhere`
 * Menguji tampilan pada ukuran layar 360px dan 1280px
 * Tetap mempertahankan fitur tema terang dan gelap dari praktikum sebelumnya
+
+---
 
 ## Praktikum 6
 
