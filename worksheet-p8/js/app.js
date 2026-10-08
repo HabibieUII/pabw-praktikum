@@ -104,3 +104,54 @@ console.table(daftarFilm);
 
 console.log("Salinan setelah diurutkan:");
 console.table(filmUrut);
+
+const daftarProyek = [
+    {
+        judul: "Halaman Profil",
+        tahun: 2026,
+        selesai: true
+    },
+    {
+        judul: "Katalog Film Favorit",
+        tahun: 2026,
+        selesai: true
+    }
+];
+
+const judulProyek = daftarProyek.map(
+    proyek => proyek.judul
+);
+
+const proyekSelesai = daftarProyek.filter(
+    proyek => proyek.selesai
+);
+
+const proyekDicari = daftarProyek.find(
+    proyek => proyek.judul === "Katalog Film Favorit"
+);
+
+console.log("Judul proyek:", judulProyek);
+console.log("Proyek selesai:");
+console.table(proyekSelesai);
+console.log("Proyek yang ditemukan:", proyekDicari);
+
+const proyekUrut = [...daftarProyek].sort(
+    (a, b) => a.tahun - b.tahun
+);
+
+console.log("Data proyek asli:");
+console.table(daftarProyek);
+
+console.log("Salinan proyek setelah diurutkan:");
+console.table(proyekUrut);
+
+console.log(
+    "Jumlah judul sama dengan jumlah proyek:",
+    judulProyek.length === daftarProyek.length
+);
+
+console.log(
+    "Urutan data asli tetap:",
+    daftarProyek.map(proyek => proyek.judul).join(", ") ===
+    "Halaman Profil, Katalog Film Favorit"
+);
