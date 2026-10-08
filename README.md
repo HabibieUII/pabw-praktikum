@@ -132,3 +132,38 @@ Kode dan tampilan akhir tetap saya sesuaikan sendiri dengan kebutuhan tugas.
 ## Keaslian
 
 Tampilan halaman ini saya buat dan sesuaikan sendiri, bukan menyalin hasil pekerjaan teman.
+
+---
+
+## Praktikum 8
+
+Praktikum 8 membahas **JavaScript ES6+, Fungsi, Array, dan Debugging**.
+
+Pada praktikum ini saya mempelajari penggunaan JavaScript untuk menyimpan data, membuat fungsi, mengolah array, dan memeriksa kesalahan melalui Console browser.
+
+### Isi yang dikerjakan
+
+* Menghubungkan file JavaScript menggunakan `type="module"`
+* Menggunakan `const` dan `let`
+* Menggunakan template literal, optional chaining (`?.`), dan nullish coalescing (`??`)
+* Membuat fungsi menggunakan parameter dan `return`
+* Mengolah data film menggunakan array of objects
+* Menggunakan `map()`, `filter()`, dan `find()`
+* Menampilkan data menggunakan `console.table()`
+* Menguji penyalinan objek menggunakan spread syntax (`...`)
+* Menguji pengurutan salinan array menggunakan `sort()`
+* Memahami perbedaan `undefined` dan `null`
+* Menguji perbedaan operasi teks dan angka
+* Membaca pesan kesalahan melalui Console browser
+
+### Pengujian
+
+Halaman dijalankan menggunakan Live Server dan diperiksa melalui Console browser untuk memastikan JavaScript terhubung dan kode menghasilkan keluaran yang sesuai.
+
+Pengujian juga dilakukan pada fungsi, array methods, penyalinan objek, dan pengurutan salinan array agar data asli tetap tidak berubah.
+
+### Bantuan AI
+
+Dalam pengerjaan tugas ini saya menggunakan AI sebagai alat bantu untuk memahami materi JavaScript, mencari kesalahan pada kode, dan membantu proses debugging.
+
+Kode dijalankan dan diuji melalui VS Code dan browser. Hasil akhir tetap saya periksa dan sesuaikan dengan kebutuhan tugas.
