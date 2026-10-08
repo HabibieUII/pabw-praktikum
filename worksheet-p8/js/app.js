@@ -93,4 +93,14 @@ console.log("Elemen uji:", elemenUji);
 const nilaiInput = "2001";
 console.log("Teks + 1:", nilaiInput + 1);
 console.log("Angka + 1:", Number(nilaiInput) + 1);
-console.log(variabelYangTidakAda);
+console.log("=== Uji pengurutan salinan ===");
+
+const filmUrut = [...daftarFilm].sort(
+    (a, b) => a.tahun - b.tahun
+);
+
+console.log("Data asli:");
+console.table(daftarFilm);
+
+console.log("Salinan setelah diurutkan:");
+console.table(filmUrut);
