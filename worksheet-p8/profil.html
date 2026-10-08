@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Film Favorit Saya</title>
+
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="komponen.css">
+    <link rel="stylesheet" href="tema.css">
+    <link rel="stylesheet" href="responsif.css">
+</head>
+
+<body>
+    <div class="page">
+        
+    <header>
+        <input type="checkbox" id="tema" class="pengalih-tema">
+        <label for="tema" class="tombol-tema">Tema gelap</label>
+
+        <div class="header-baris">
+            <h1>Koleksi Film Favorit Saya</h1>
+
+            <nav aria-label="Navigasi utama">
+                <ul>
+                    <li><a href="#daftar-film">Daftar Film</a></li>
+                    <li><a href="#tambah-film">Tambah Film</a></li>
+                    <li><a href="#tentang-saya">Tentang Saya</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="isi">
+        <section id="daftar-film" class="utama">
+            <h2>Daftar Film Favorit</h2>
+
+            <p>
+                Berikut adalah beberapa film favorit saya beserta genre,
+                tahun rilis, dan ratingnya.
+            </p>
+
+            <div class="galeri">
+
+                <article class="kartu">
+                    <img src="scream.jpg" alt="Poster film Scream 1">
+                    <div class="info-film">
+                        <h3>Scream 1</h3>
+                        <p>Genre: Slasher</p>
+                        <p>Tahun Rilis: 1996</p>
+                        <p>Rating: 9/10</p>
+                    </div>
+                </article>
+
+                <article class="kartu">
+                    <img src="scary-movie.jpg" alt="Poster film Scary Movie 1">
+                    <div class="info-film">
+                        <h3>Scary Movie 1</h3>
+                        <p>Genre: Horror-Comedy</p>
+                        <p>Tahun Rilis: 2000</p>
+                        <p>Rating: 9/10</p>
+                    </div>
+                </article>
+
+                <article class="kartu">
+                    <img src="fast-furious.jpg" alt="Poster film The Fast and the Furious">
+                    <div class="info-film">
+                        <h3>The Fast and the Furious</h3>
+                        <p>Genre: Action</p>
+                        <p>Tahun Rilis: 2001</p>
+                        <p>Rating: 8.5/10</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="tambah-film" class="bawah">
+            <h2>Tambah Film</h2>
+
+            <p>
+                Masukkan informasi film yang ingin ditambahkan.
+            </p>
+
+            <form action="/simpan" method="post">
+                <div class="form-kolom">
+                    <label for="judul-film">Judul Film</label>
+                    <input type="text" id="judul-film" name="judul-film" required>
+                    <p class="pesan-galat">Judul film harus diisi.</p>
+                </div>
+
+                <div class="form-kolom">
+                    <label for="genre">Genre</label>
+                    <input
+                        type="text"
+                        id="genre"
+                        name="genre"
+                        required
+                    >
+                    <p class="pesan-galat">Genre harus diisi.</p>
+                </div>
+
+                <div class="form-kolom">
+                    <label for="tahun-rilis">Tahun Rilis</label>
+                    <input
+                        type="number"
+                        id="tahun-rilis"
+                        name="tahun-rilis"
+                        min="1900"
+                        max="2026"
+                        required
+                    >
+                    <p class="pesan-galat">Masukkan tahun rilis yang benar.</p>
+                </div>
+
+                <button type="submit">Simpan Film</button>
+            </form>
+        </section>
+
+        <section id="tentang-saya" class="sisi">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Saya menyukai berbagai jenis film, terutama film dengan genre action
+                dan horror slasher. Halaman ini berisi beberapa film
+                yang menjadi favorit saya.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Duta Rayyan Habibie · 25523273 · 2026</p>
+    </footer>
+    
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
