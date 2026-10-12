@@ -28,51 +28,47 @@ Pada praktikum ini saya membuat halaman **Koleksi Film Favorit Saya** yang beris
 
 ---
 
-# Praktikum 4
+## Praktikum 4
 
-Ini adalah hasil pengerjaan tugas Pertemuan 4 tentang **CSS Fundamental dan Design Token**.
+Praktikum 4 membahas **CSS Fundamental dan Design Token**.
 
-## Isi folder
+### Isi folder
 
-Di dalam folder `worksheet-p4/` ada beberapa file:
+Di dalam folder `worksheet-4/` terdapat beberapa file:
 
-* `profil.html` → halaman profil
+* `profil.html` → halaman profil dan koleksi film
 * `tokens.css` → tempat design token
 * `base.css` → CSS dasar
 * `layout.css` → mengatur layout halaman
-* `components.css` → mengatur tampilan komponen
+* `komponen.css` → mengatur tampilan komponen
 * `tema.css` → mengatur tema terang dan gelap
-* `gambar/` → berisi gambar yang digunakan di halaman
+* File gambar → gambar yang digunakan pada halaman
 
-## Yang dikerjakan
-
-Beberapa hal yang diterapkan di tugas ini:
+### Yang dikerjakan
 
 * Menggunakan design token
 * Memisahkan token primitive dan semantic
 * Menggunakan CSS variable
-* Menggunakan flexbox
+* Menggunakan Flexbox
 * Menggunakan `gap` dan `flex-wrap`
-* Membuat tampilan responsive
+* Membuat tampilan responsif
 * Menggunakan `rem` untuk ukuran font
-* Mengatur tema terang dan tema gelap
+* Mengatur tema terang dan gelap
 * Menggunakan `prefers-color-scheme`
 * Menggunakan `:focus-visible`
 * Menggunakan `:user-invalid`
-* Menghilangkan `float`
+* Menghilangkan penggunaan `float`
 * Mengurangi penggunaan warna langsung di CSS
 * Menghilangkan `!important`
 * Menggunakan `font: inherit` pada input
 
-## Tema
+### Tema
 
-Halaman ini punya tema terang dan gelap.
+Halaman memiliki tema terang dan gelap. Tema dapat mengikuti pengaturan sistem menggunakan `prefers-color-scheme` dan dapat diganti melalui kontrol tema pada halaman.
 
-Tema bisa mengikuti pengaturan sistem menggunakan `prefers-color-scheme`, dan juga bisa diganti menggunakan tombol tema yang ada di halaman.
+### Pengujian
 
-## Pengujian
-
-Halaman sudah dicek menggunakan DevTools dan Lighthouse untuk melihat:
+Halaman diperiksa menggunakan DevTools dan Lighthouse untuk melihat:
 
 * Accessibility
 * Performance
@@ -85,16 +81,14 @@ Halaman sudah dicek menggunakan DevTools dan Lighthouse untuk melihat:
 
 ## Praktikum 5
 
-Praktikum 5 merupakan tambahan atau lanjutan dari Praktikum 4.
+Praktikum 5 merupakan lanjutan dari Praktikum 4 yang berfokus pada **Flexbox dan CSS Grid** untuk mengatur layout halaman.
 
-Pada praktikum ini halaman dari praktikum sebelumnya dikembangkan lagi dengan menggunakan **Flexbox dan CSS Grid** untuk mengatur layout.
-
-Beberapa hal yang dikerjakan:
+### Yang dikerjakan
 
 * Menggunakan CSS Grid untuk kerangka halaman
-* Menggunakan Flexbox untuk bagian yang membutuhkan susunan satu arah
-* Mengatur layout menjadi 3 baris menggunakan Grid
-* Membuat layout utama menjadi 2 kolom
+* Menggunakan Flexbox untuk susunan satu arah
+* Mengatur layout menjadi tiga baris menggunakan Grid
+* Membuat layout utama menjadi dua kolom
 * Menggunakan `grid-template-areas`
 * Menggunakan `repeat()` dan `minmax()`
 * Menggunakan `auto-fit` agar jumlah kolom menyesuaikan ukuran layar
@@ -104,7 +98,7 @@ Beberapa hal yang dikerjakan:
 * Menggunakan `min-width: 0`
 * Menggunakan `overflow-wrap: anywhere`
 * Menguji tampilan pada ukuran layar 360px dan 1280px
-* Tetap mempertahankan fitur tema terang dan gelap dari praktikum sebelumnya
+* Mempertahankan fitur tema terang dan gelap dari praktikum sebelumnya
 
 ---
 
@@ -112,26 +106,26 @@ Beberapa hal yang dikerjakan:
 
 Praktikum 6 merupakan lanjutan dari praktikum sebelumnya yang berfokus pada **Responsive Web Design dan Media Query**.
 
-Beberapa hal yang dikerjakan:
+### Yang dikerjakan
 
-* Membuat layout yang responsive
+* Membuat layout yang responsif
 * Menggunakan CSS Media Query
 * Menentukan breakpoint pada `48rem` dan `60rem`
 * Mengubah galeri dari satu kolom menjadi dua kolom pada `48rem`
 * Menampilkan sidebar bersanding dengan konten pada `60rem`
 * Menyesuaikan layout berdasarkan lebar layar
 * Menguji tampilan pada ukuran layar yang berbeda
-* Menentukan titik henti berdasarkan kebutuhan layout, bukan berdasarkan perangkat tertentu
+* Menentukan breakpoint berdasarkan kebutuhan layout, bukan perangkat tertentu
 
-## Bantuan AI
+### Bantuan AI
 
 Dalam pengerjaan tugas ini saya menggunakan AI sebagai bantuan untuk memahami materi, mencari kesalahan pada kode, dan membantu proses perbaikan CSS.
 
-Kode dan tampilan akhir tetap saya sesuaikan sendiri dengan kebutuhan tugas.
+Kode dan tampilan akhir saya sesuaikan dengan kebutuhan tugas.
 
-## Keaslian
+### Keaslian
 
-Tampilan halaman ini saya buat dan sesuaikan sendiri, bukan menyalin hasil pekerjaan teman.
+Tampilan halaman saya buat dan sesuaikan sendiri, bukan menyalin hasil pekerjaan teman.
 
 ---
 
@@ -167,3 +161,39 @@ Pengujian juga dilakukan pada fungsi, array methods, penyalinan objek, dan pengu
 Dalam pengerjaan tugas ini saya menggunakan AI sebagai alat bantu untuk memahami materi JavaScript, mencari kesalahan pada kode, dan membantu proses debugging.
 
 Kode dijalankan dan diuji melalui VS Code dan browser. Hasil akhir tetap saya periksa dan sesuaikan dengan kebutuhan tugas.
+
+---
+
+## Praktikum 9
+
+Praktikum 9 membahas **DOM, Event, dan Interaktivitas** menggunakan JavaScript.
+
+Pada praktikum ini halaman koleksi film dikembangkan dengan menambahkan daftar proyek yang dapat difilter serta validasi interaktif pada formulir penambahan film.
+
+### Isi yang dikerjakan
+
+* Menghubungkan file JavaScript menggunakan `type="module"`
+* Memilih elemen HTML menggunakan `document.querySelector()`
+* Mengambil beberapa elemen menggunakan `document.querySelectorAll()`
+* Membuat elemen HTML menggunakan `document.createElement()`
+* Mengisi teks elemen menggunakan `textContent`
+* Menambahkan elemen ke halaman menggunakan `append()`
+* Menghapus isi elemen menggunakan `replaceChildren()`
+* Menampilkan daftar proyek secara dinamis
+* Membuat filter proyek berdasarkan kategori Web dan JavaScript
+* Menggunakan `addEventListener()` untuk menangani event
+* Menggunakan event delegation melalui `event.target.closest()`
+* Mengatur tombol filter aktif menggunakan `classList.toggle()`
+* Menampilkan pesan ketika tidak ada proyek yang sesuai dengan filter
+* Membuat validasi formulir penambahan film secara interaktif
+* Memeriksa input kosong dan memastikan tahun rilis berupa angka dalam rentang 1900–2026
+* Menampilkan pesan kesalahan pada kolom yang tidak valid
+* Mengatur status tombol simpan berdasarkan validitas input
+* Mencegah pengiriman formulir ketika data belum valid menggunakan `event.preventDefault()`
+* Menguji interaksi halaman melalui browser dan Console
+
+### Fitur yang dibuat
+
+**1. Daftar proyek dan filter kategori**
+
+Halaman menampilkan daftar proyek dalam bentuk kartu.
