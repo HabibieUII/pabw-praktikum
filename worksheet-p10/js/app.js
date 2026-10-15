@@ -165,21 +165,23 @@ console.log(
 );
 
 async function muat() {
-  aturMemuat(true);
-  
-  await new Promise(resolve => setTimeout(resolve, 2000));
+    aturMemuat(true);
 
-  try {
-    const daftar = await ambilProyek();
-    pasangFilter(daftar);
-    render(daftar);
-  } catch (error) {
-    tampilkanGalat(
-      'Data proyek gagal dimuat. Periksa koneksi atau coba lagi.'
-    );
-  } finally {
-    aturMemuat(false);
-  }
+    try {
+        const daftar = await ambilProyek();
+
+        pasangFilter(daftar);
+        render(daftar);
+    } catch (error) {
+        console.error("Gagal memuat proyek:", error);
+
+        tampilkanGalat(
+            "Data proyek gagal dimuat. Periksa koneksi atau coba lagi."
+        );
+    } finally {
+        aturMemuat(false);
+    }
 }
 
 muat();
+
