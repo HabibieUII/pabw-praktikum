@@ -196,4 +196,72 @@ Pada praktikum ini halaman koleksi film dikembangkan dengan menambahkan daftar p
 
 **1. Daftar proyek dan filter kategori**
 
-Halaman menampilkan daftar proyek dalam bentuk kartu.
+Halaman menampilkan daftar proyek dalam bentuk kartu. Pengguna dapat memfilter proyek berdasarkan kategori Web dan JavaScript.
+
+**2. Validasi formulir interaktif**
+
+Formulir penambahan film dilengkapi validasi untuk memastikan data yang dimasukkan sesuai ketentuan. Pesan kesalahan ditampilkan ketika input tidak valid.
+
+### Bantuan AI
+
+Dalam pengerjaan tugas ini saya menggunakan AI sebagai alat bantu untuk memahami materi DOM, event, dan interaktivitas, serta membantu mencari kesalahan pada kode JavaScript.
+
+Kode dijalankan dan diuji melalui VS Code dan browser. Hasil akhir saya periksa dan sesuaikan dengan kebutuhan tugas.
+
+---
+
+## Praktikum 10
+
+Praktikum 10 membahas **JavaScript Asinkron: fetch, Promise, dan JSON**.
+
+Pada praktikum ini halaman profil dikembangkan agar dapat mengambil data proyek secara asinkron dari berkas JSON, memproses respons, dan menampilkan data ke halaman menggunakan JavaScript.
+
+### Isi yang dikerjakan
+
+* Menggunakan `fetch()` untuk mengambil data proyek
+* Memahami konsep Promise dan penggunaan `await`
+* Menggunakan `async function` untuk menjalankan proses asinkron
+* Memeriksa status respons HTTP menggunakan `respons.ok` dan `respons.status`
+* Mengubah respons menjadi data JavaScript menggunakan `respons.json()`
+* Menggunakan `try`, `catch`, dan `finally` untuk menangani proses dan kesalahan
+* Membuat fungsi `ambilProyek` di dalam `js/api.js`
+* Menggunakan `export` dan `import` untuk menghubungkan beberapa berkas JavaScript
+* Menyimpan data proyek dalam berkas `data/proyek.json`
+* Menampilkan data proyek secara dinamis dalam bentuk kartu
+* Menampilkan indikator loading ketika data sedang dimuat
+* Menampilkan pesan kesalahan ketika data gagal dimuat
+* Menampilkan keadaan kosong ketika tidak ada proyek yang tersedia
+* Mempertahankan fitur filter kategori proyek
+* Menguji proses pengambilan data melalui Console dan Network pada DevTools browser
+
+### Fitur yang dibuat
+
+**1. Pengambilan data proyek**
+
+Data proyek diambil menggunakan `fetch()` dari sumber JSON. Respons diperiksa terlebih dahulu sebelum isinya dibaca menggunakan `respons.json()`.
+
+**2. Tampilan kartu proyek**
+
+Data yang berhasil diambil ditampilkan sebagai kartu proyek yang memuat judul, tahun, dan kategori.
+
+**3. Indikator loading dan penanganan error**
+
+Halaman menampilkan pesan ketika data sedang dimuat dan menyediakan pesan kesalahan apabila proses pengambilan data gagal.
+
+**4. Filter kategori proyek**
+
+Pengguna dapat menyaring daftar proyek berdasarkan kategori yang tersedia tanpa harus memuat ulang halaman.
+
+### Pengujian
+
+Halaman dijalankan melalui server lokal dan diperiksa menggunakan Console serta Network pada DevTools browser. Pengujian mencakup pengambilan data JSON, status respons HTTP, tampilan kartu proyek, filter kategori, indikator loading, dan penanganan kesalahan.
+
+### Bantuan AI
+
+Dalam pengerjaan tugas ini saya menggunakan AI sebagai alat bantu untuk memahami materi JavaScript asinkron, penggunaan `fetch()`, Promise, `async/await`, JSON, dan penanganan error.
+
+Kode dijalankan dan diuji melalui VS Code dan browser. Hasil akhir saya periksa dan sesuaikan dengan kebutuhan tugas.
+
+### Keaslian
+
+Praktikum ini merupakan pengembangan dari proyek praktikum sebelumnya. Kode dan fitur disesuaikan dengan instruksi worksheet, kemudian diperiksa dan diuji untuk memastikan fungsinya berjalan sesuai kebutuhan.
