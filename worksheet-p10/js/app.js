@@ -166,6 +166,8 @@ console.log(
 
 async function muat() {
   aturMemuat(true);
+  
+  await new Promise(resolve => setTimeout(resolve, 2000));
 
   try {
     const daftar = await ambilProyek();
