@@ -265,3 +265,93 @@ Kode dijalankan dan diuji melalui VS Code dan browser. Hasil akhir saya periksa 
 ### Keaslian
 
 Praktikum ini merupakan pengembangan dari proyek praktikum sebelumnya. Kode dan fitur disesuaikan dengan instruksi worksheet, kemudian diperiksa dan diuji untuk memastikan fungsinya berjalan sesuai kebutuhan.
+
+---
+
+## Praktikum 11
+
+Praktikum 11 membahas **Modularisasi JavaScript dan Pengembangan Aplikasi Berbasis Web**.
+
+Pada praktikum ini saya mengembangkan proyek halaman profil dengan memisahkan kode JavaScript ke dalam beberapa modul agar struktur program lebih terorganisasi, mudah dipahami, dan mudah dikembangkan.
+
+### Isi yang dikerjakan
+
+* Memisahkan kode JavaScript menjadi beberapa modul
+* Menggunakan `export` dan `import` untuk menghubungkan modul
+* Mengorganisasi kode berdasarkan fungsi dan tanggung jawabnya
+* Mengembangkan fitur halaman profil dari praktikum sebelumnya
+* Mengelola data proyek dan menampilkan informasi secara dinamis
+* Menghubungkan modul JavaScript dengan halaman HTML
+* Mempertahankan fitur filter kategori proyek
+* Menguji fungsi setiap modul melalui browser dan Console
+* Memeriksa kesalahan pada kode dan memastikan modul terhubung dengan benar
+
+### Fitur yang dibuat
+
+**1. Modularisasi kode JavaScript**
+
+Kode program dipisahkan ke dalam modul agar setiap bagian memiliki tanggung jawab yang lebih jelas dan dapat digunakan bersama oleh modul lain.
+
+**2. Pengelolaan data proyek**
+
+Data proyek dikelola dan ditampilkan secara dinamis pada halaman profil dengan memanfaatkan fungsi JavaScript yang telah dipisahkan ke dalam modul.
+
+**3. Integrasi fitur halaman profil**
+
+Fitur yang telah dibuat pada praktikum sebelumnya dipertahankan dan disesuaikan agar dapat bekerja dengan struktur kode yang lebih terorganisasi.
+
+### Pengujian
+
+Proyek dijalankan melalui server lokal dan diperiksa menggunakan Console pada browser. Pengujian dilakukan untuk memastikan modul berhasil dimuat, fungsi berjalan sesuai kebutuhan, dan tidak terdapat kesalahan JavaScript yang mengganggu halaman.
+
+### Bantuan AI
+
+Dalam pengerjaan tugas ini saya menggunakan AI sebagai alat bantu untuk memahami materi modularisasi JavaScript, menyusun struktur modul, dan membantu proses debugging.
+
+Kode dijalankan dan diperiksa melalui VS Code dan browser. Hasil akhir saya sesuaikan dengan instruksi worksheet.
+
+### Keaslian
+
+Praktikum ini merupakan lanjutan dari proyek praktikum sebelumnya. Struktur kode dan fitur disesuaikan dengan kebutuhan tugas serta diperiksa kembali agar berfungsi dengan baik.
+
+---
+
+## Praktikum 12
+
+Praktikum 12 membahas **Build Tooling, npm, dan Framework SPA**.
+
+Pada praktikum ini saya mengembangkan halaman profil menjadi proyek berbasis Vue menggunakan Vite sebagai build tool. Proyek disusun dengan struktur yang lebih terorganisasi dan menggunakan sistem komponen untuk membangun antarmuka aplikasi.
+
+### Isi yang dikerjakan
+
+* Mengenal Node.js dan npm sebagai bagian dari lingkungan pengembangan
+* Membuat dan mengelola proyek menggunakan Vite
+* Menggunakan `package.json` untuk mengatur informasi proyek, dependensi, dan script
+* Memahami penggunaan dependensi proyek melalui `node_modules`
+* Menggunakan perintah npm untuk menjalankan server pengembangan
+* Mengembangkan antarmuka menggunakan Vue
+* Memahami konsep komponen dalam framework JavaScript
+* Memisahkan antarmuka menjadi bagian-bagian yang dapat digunakan kembali
+* Menggunakan sintaks template Vue untuk menampilkan konten
+* Menjalankan proyek melalui server pengembangan Vite
+* Membuat build produksi untuk menghasilkan berkas siap distribusi
+* Memeriksa hasil build dan memastikan proses kompilasi berjalan dengan baik
+* Menggunakan `.gitignore` untuk mengabaikan berkas hasil build dan dependensi yang tidak perlu dikirim ke GitHub
+
+### Fitur yang dibuat
+
+**1. Proyek berbasis Vue dan Vite**
+
+Halaman profil dikembangkan menggunakan Vue dengan bantuan Vite untuk menjalankan server pengembangan dan memproses aplikasi.
+
+**2. Struktur komponen**
+
+Antarmuka aplikasi disusun menggunakan pendekatan komponen agar kode lebih terorganisasi dan lebih mudah dipelihara.
+
+**3. Build produksi**
+
+Proyek dibangun menggunakan script build dari npm untuk menghasilkan berkas produksi yang dapat digunakan dalam proses distribusi aplikasi.
+
+### Pengujian
+
+Proyek
