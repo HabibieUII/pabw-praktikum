@@ -354,4 +354,17 @@ Proyek dibangun menggunakan script build dari npm untuk menghasilkan berkas prod
 
 ### Pengujian
 
-Proyek
+Proyek dijalankan melalui server pengembangan Vite. Pengujian dilakukan untuk memastikan aplikasi dapat dimuat di browser, komponen tampil sesuai kebutuhan, dan proses build produksi berhasil.
+
+Versi Node.js, npm, dan Vite diperiksa melalui terminal. Hasil build juga diperiksa untuk memastikan proses kompilasi berjalan tanpa kesalahan.
+
+### Bantuan AI
+
+Dalam pengerjaan tugas ini saya menggunakan AI sebagai alat bantu untuk memahami penggunaan npm, Vite, Vue, struktur komponen, dan proses build produksi.
+
+Kode dijalankan dan diuji melalui VS Code, terminal, dan browser. Hasil akhir saya periksa dan sesuaikan dengan instruksi worksheet.
+
+### Keaslian
+
+Praktikum ini merupakan pengembangan dari proyek PABW sebelumnya. Struktur proyek dan implementasi disesuaikan dengan kebutuhan worksheet, kemudian diuji untuk memastikan aplikasi berjalan sesuai tujuan praktikum.
+
